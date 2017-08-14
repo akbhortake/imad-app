@@ -5,6 +5,28 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var code=
+"<html>
+    
+    <head>
+        
+    </head>
+    
+    <body>
+        
+        <h1>this is new page</h1>
+        
+        <p>
+            
+            akdshay bhortakke 
+            
+            
+        </p>
+        
+    </body>
+    
+</html>";
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
@@ -13,13 +35,6 @@ app.get('/art1',function(req,res){
     res.send("this is article one!");
 });
 
-app.get('/art2',function(req,res){
-    res.send("this is article two!");
-});
-
-app.get('/art3',function(req,res){
-    res.send("this is article three!");
-});
 
 
 app.get('/ui/style.css', function (req, res) {
