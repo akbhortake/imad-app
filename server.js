@@ -14,7 +14,7 @@ var code=
     
     <body>
         
-        <h1>this is new page</h1>
+        <h1>this is string html</h1>
         
         <p>
             
@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/art1',function(req,res){
-    res.send("this is article one!");
+    res.send(code);
 });
 
 
