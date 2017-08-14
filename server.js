@@ -6,26 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var code=
-"<html>
-    
-    <head>
-        
-    </head>
-    
-    <body>
-        
-        <h1>this is string html</h1>
-        
-        <p>
-            
-            akdshay bhortakke 
-            
-            
-        </p>
-        
-    </body>
-    
-</html>";
+"somethis";
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
