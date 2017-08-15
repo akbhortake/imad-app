@@ -1,11 +1,11 @@
 console.log('Loaded!');
 var count=0;
 alert("asdf");
-var btn=Doucument.getElementById("btn");
+var btn=doucument.getElementById("btn");
 btn.onClick = function ()
 {
     alert("hi");
-    var span=Doucument.getElementById("showcount");
+    var span=doucument.getElementById("showcount");
     count=1+count;
     span.innerHTML("any");
 };
