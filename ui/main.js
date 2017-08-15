@@ -5,5 +5,5 @@ btn.onClick()
 {
     var span=Doucument.getElementById("showcount")
     count=1+count;
-    span.innerHTML(count.toStirng());
+    span.innerHTML("any");
 }
