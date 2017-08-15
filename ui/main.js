@@ -1,5 +1,6 @@
 console.log('Loaded!');
 var count=0;
+alert("asdf");
 var btn=Doucument.getElementById("btn");
 btn.onClick()
 {
