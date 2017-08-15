@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var count=0;
-var btn=document.getElementById("btn");
+var btn=document.getElementById('btn');
 btn.onClick = function ()
 {
     alert("hi");
