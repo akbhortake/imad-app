@@ -13,7 +13,7 @@ var config=
     database:'akbhortake',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password:process.env.DB_PASSWORD
+    password:'db-akbhortake-19748'
     
 };
 
