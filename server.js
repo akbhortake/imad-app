@@ -24,7 +24,7 @@ app.get('/', function (req, res) {
 var pool=new Pool(config);
 
 app.get('/testdb', function (req, res) {
- /* pool.query('SELECT * FORM sampledb',function(err,result){
+  pool.query('select * from sampdb',function(err,result){
      if(err)
      {
          
@@ -33,8 +33,7 @@ app.get('/testdb', function (req, res) {
      {
          res.send(JSON.stringify(result));
      }
-  });*/
-  res.send(JSON.stringify("hello booo"));
+  });
 });
 
 var counter=0;
